@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 4vh;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+.header-logo {
+    height: 30px;
+    width: 40px;
+
+}
+.iconLink :link {
+    text-decoration: none !important;
+    list-style: none;
+}
+.header h1 {
+    font-size: 19px;    
+
+} 
+.icon-name {
+    display: flex;
+    color: #252525 !important;
+    grid-gap: 2px;
+
+}
+
+.header-left {
+    display: flex;
+    grid-gap: 3vh;
+}
+.header-center {
+    display: flex;
+    align-items: center;
+    grid-gap: 1.5vh;
+}
+.header-center li {
+    text-decoration: none ;
+}
+
+.header-center > div {
+    border: 1px solid gray;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    width: 100vh;
+    background:none;
+    height: 40px;
+}
+.searchInput {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    padding-left: 2vh;
+}
+.header-right {
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 3vh;
+}
+.voiceIcon {
+    background-color: #efefef;
+    border-radius: 50%;
+    padding: 1.5vh;
+}
+.searchMenu {
+    width: 30px !important;
+    height: 100% !important;
+    color: #3e3e3e;
+    border-radius: 0 30px 30px 0;
+    padding: 0 5px;
+}

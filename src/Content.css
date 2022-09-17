@@ -1,0 +1,19 @@
+.content {
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 0 20px;
+    padding-bottom: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.videoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

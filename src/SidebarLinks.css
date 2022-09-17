@@ -1,0 +1,23 @@
+.sidebarLinks {
+    display: flex;
+    align-items: center;
+    padding: 11px 30px;
+    margin: 3px 0;
+    grid-gap: 3vh;
+    cursor: pointer;
+}
+.sidebarLinks-icon {
+    font-size: large !important;
+    color: #353232;
+}
+.sidebarLinks-title {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+}
+.sidebarLinks:hover {
+    background-color: #ecf1ff;
+}
+hr {
+    margin: 2vh 0;
+}
