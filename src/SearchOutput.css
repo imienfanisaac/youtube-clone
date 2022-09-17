@@ -1,0 +1,30 @@
+.searchOutput {
+    margin-bottom: 40px;
+    width: 470px;
+    display: flex;
+    grid-gap: 4vh;
+
+}
+
+.searchOutput >img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.searchOutput-text {
+    display: flex;
+    margin-top: 20px;
+    padding-right: 30px;
+    flex-direction: column;
+    grid-gap: 2vh;
+}
+.output {
+    display: flex;
+    grid-gap: 2vh;
+}
+.output > img {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+}

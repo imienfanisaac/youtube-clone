@@ -1,0 +1,28 @@
+.searchPage {
+    flex: 0.8;
+    padding: 20px;
+    background-color: #eaeaea;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+
+}
+.searchPage::-webkit-scrollbar{
+    display: none;
+}
+
+.searchPage-icon {
+    display: flex;
+    align-items: center;
+    color: xx-small !important;
+}
+.searchPage-icon > {
+    margin-left: 10px;
+}
+.searchPage > hr {
+    height: 1px;
+    background-color: lightgray;
+    margin: 10px 0;
+    border: none;
+}

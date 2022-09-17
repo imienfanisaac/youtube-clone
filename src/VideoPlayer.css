@@ -1,0 +1,6 @@
+.videoPlayer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 4vh auto;
+}
